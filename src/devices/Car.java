@@ -22,4 +22,11 @@ public class Car extends Device {
                 ", yearOfProduction=" + yearOfProduction +
                 '}';
     }
+
+    @Override
+    public void turnOn() {
+        System.out.println("przekręcam kluczyk");
+        System.out.println("modlę się w intencji akumulatora");
+        System.out.println("odpala");
+    }
 }

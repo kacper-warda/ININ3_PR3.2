@@ -19,4 +19,16 @@ public class Phone extends Device {
                 ", yearOfProduction=" + yearOfProduction +
                 '}';
     }
+
+    @Override
+    public void turnOn() {
+        System.out.println("wciskam przycisk");
+        System.out.println("czekam");
+        System.out.println("czekam");
+        System.out.println("czekam");
+        System.out.println("czekam");
+        System.out.println("widzę logo");
+        System.out.println("czekam");
+        System.out.println("działa");
+    }
 }

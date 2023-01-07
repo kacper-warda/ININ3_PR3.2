@@ -1,6 +1,6 @@
 package devices;
 
-public class Device {
+public abstract class Device {
     public final String producer;
     public final String model;
     public final Integer yearOfProduction;
@@ -19,4 +19,6 @@ public class Device {
                 ", yearOfProduction=" + yearOfProduction +
                 '}';
     }
+
+    public abstract void turnOn();
 }
