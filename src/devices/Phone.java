@@ -31,4 +31,5 @@ public class Phone extends Device {
         System.out.println("czekam");
         System.out.println("działa");
     }
+
 }
