@@ -1,13 +1,10 @@
-public class Car {
-    String producer;
-    String model;
-    Integer yearOfProduction;
-    Double millage;
+package devices;
+
+public class Car extends Device {
+    public Double millage;
 
     public Car(String producer, String model, Integer yearOfProduction) {
-        this.producer = producer;
-        this.model = model;
-        this.yearOfProduction = yearOfProduction;
+        super(producer, model, yearOfProduction);
         this.millage = 0.0;
     }
 
