@@ -1,4 +1,4 @@
-package devices;
+package kacper_warda.devices;
 
 public abstract class Device {
     public final String producer;

@@ -1,3 +1,5 @@
+package kacper_warda.creatures;
+
 public class Animal {
     String species;
     String name;

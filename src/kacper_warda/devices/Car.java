@@ -1,6 +1,9 @@
-package devices;
+package kacper_warda.devices;
 
-public class Car extends Device {
+import kacper_warda.Saleable;
+import kacper_warda.creatures.Human;
+
+public class Car extends Device implements Saleable {
     public Double millage;
 
     public Car(String producer, String model, Integer yearOfProduction) {
@@ -28,5 +31,10 @@ public class Car extends Device {
         System.out.println("przekręcam kluczyk");
         System.out.println("modlę się w intencji akumulatora");
         System.out.println("odpala");
+    }
+
+    @Override
+    public void sell(Human seller, Human buyer, Double price) {
+
     }
 }

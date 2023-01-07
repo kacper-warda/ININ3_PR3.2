@@ -1,4 +1,4 @@
-package devices;
+package kacper_warda.devices;
 
 public class Phone extends Device {
     public Double screenSize;
