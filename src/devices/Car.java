@@ -12,4 +12,14 @@ public class Car extends Device {
         this.millage += 10.0;
         System.out.println("Aktualny przebieg to: " + this.millage);
     }
+
+    @Override
+    public String toString() {
+        return "Car{" +
+                "millage=" + millage +
+                ", producer='" + producer + '\'' +
+                ", model='" + model + '\'' +
+                ", yearOfProduction=" + yearOfProduction +
+                '}';
+    }
 }
