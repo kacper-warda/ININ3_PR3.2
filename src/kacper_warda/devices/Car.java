@@ -36,5 +36,6 @@ public class Car extends Device implements Saleable {
     @Override
     public void sell(Human seller, Human buyer, Double price) {
 
+
     }
 }
